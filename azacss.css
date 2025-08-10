@@ -32,6 +32,9 @@
     z-index: 2; /* ensures it’s above video/image */
 }
 
+.video-container img {
+    z-index: 1;
+}
 
 
 /* Heading */
@@ -230,5 +233,6 @@ hr {
   margin-top: 20px;
   color: #ccc;
 }
+
 
 
