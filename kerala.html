@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .video-wrapper {
+        max-width: 800px;
+        margin: 0 auto;
+        }
+
+        video {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        transition: box-shadow 0.3s ease;
+        }
+        
+        video:hover {
+        box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Kerala Header -->
+    <section class="py-5 text-center" style="background-color: #e9f2ff;">
+        <div class="container">
+            <h1 class="display-4" style="color: #0d6efd;">Discover Kerala</h1>
+            <p class="lead">The serene backwaters, lush greenery, and cultural richness.</p>
+        </div>
+    </section>
+
+    <!-- Kerala Cards -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/cc/95/14/alleppey-backwater-tour.jpg?w=1200&h=900&s=1" class="card-img-top" alt="Alleppey">
+                        <div class="card-body">
+                            <h5 class="card-title">Alleppey Backwaters</h5>
+                            <p class="card-text">Famous for houseboat cruises through peaceful lagoons and lakes.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://static.toiimg.com/photo/50465195.cms" class="card-img-top" alt="Munnar">
+                        <div class="card-body">
+                            <h5 class="card-title">Munnar</h5>
+                            <p class="card-text">A hill station known for tea gardens and cool climate.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://www.adventuresnsunsets.com/wp-content/uploads/IMG_6241-1024x683.jpg" class="card-img-top" alt="Kovalam Beach">
+                        <div class="card-body">
+                            <h5 class="card-title">Kovalam Beach</h5>
+                            <p class="card-text">Golden sands and clear waters perfect for relaxation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kerala Videos -->
+    <section class="py-5" style="background-color: #e9f2ff;">
+        <div class="container">
+            <h2 class="text-center mb-4" style="color: #0d6efd;">Kerala in Motion</h2>
+
+            <div class="video-wrapper mb-4">
+                <video controls autoplay muted loop>
+                    <source src="./media-aza/kerala1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video-wrapper mb-4">
+                <video controls autoplay muted loop>
+                    <source src="./media-aza/kerala2.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video-wrapper mb-4">
+                <video controls autoplay muted loop>
+                    <source src="./media-aza/kerala3.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video-wrapper">
+                <video controls autoplay muted loop>
+                    <source src="./media-aza/kerala4.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
